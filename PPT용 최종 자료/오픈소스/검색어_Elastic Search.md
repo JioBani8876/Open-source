@@ -89,8 +89,6 @@ Elastic Search
 
 **ElasticSearch 라이선싱**
 
-![스크린샷 2022-11-17 16.23.00](/Users/limseungbin/Desktop/스크린샷 2022-11-17 16.23.00.png)
-
 Elasticsearch와 Kibana의 Apache 2.0 라이선스 소스 코드를 Elastic License 및 SSPL 1.0에 따라 이중 라이선스로 전환하여 사용자가 어느 라이선스를 적용할 지 선택할 수 있도록 변경하고 있다.
 
  Elastic License(Elastic License v2 또는 ELv2)를 단순화하고 훨씬 더 허용 범위가 커지도록 하고 있다. 기본 배포판은 거의 지난 3년 동안 그랬던 것처럼 계속 Elastic License를 따르게 되며, 더 이상 Apache 2.0 배포는 생산되지 않는다.
@@ -98,7 +96,7 @@ Elasticsearch와 Kibana의 Apache 2.0 라이선스 소스 코드를 Elastic Lice
 Elastic License 2.0은 Elasticsearch와 Kibana의 모든 무료 및 유료 기능의 소스 코드와 Elastic의 배포에 적용된다. ELv2를 이용하는 우리의 목표는 남용으로부터 보호하면서 가능한 한 많은 것을 허용하는 것입니다. 이 라이선스는 다음의 세 가지 간단한 제한 사항과 함께 사용, 수정, 파생 작품 생성 및 재배포를 할 수 있는 자유로운 권리를 허용함.
 
 * 제품을 다른 사람에게 관리형 서비스로 제공 X
-* 라이선스 키 기능을 우회하거나 라이선스 키로 보호되는 긴ㅇ을 제거하면/숨길 수 없다.
+* 라이선스 키 기능을 우회하거나 라이선스 키로 보호되는 기능을 제거하면/숨길 수 없다.
 * 라이선스, 저작권 또는 기타 통지를 제거하거나 숨길 수 없다.
 
 
@@ -107,7 +105,7 @@ Elastic Search 흐름
 
 Ex) Elastic Search 내부 DFD
 
-![스크린샷 2022-11-18 19.57.02](/Users/limseungbin/Desktop/스크린샷 2022-11-18 19.57.02.png)
+
 
 App => 이벤트 =>pipeline=>ES(내부 변환)=>pipeline => metrics index(머신이 일정 주기로 측정하여 만든 측정 데이터로 이해하여 받아들이는 것) => 변환 후 내보냄
 
